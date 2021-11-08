@@ -1,0 +1,116 @@
+await Item.create([
+{
+  "name": "Test1",
+  "type": "Extra",
+  "img": "icons/svg/item-bag.svg",
+  "data": {
+    "description": {
+      "value": ""
+    },
+    "permissions": "",
+    "costs": "",
+    "refresh": "",
+    "stunts": {
+      "Stunt 1": {
+        "name": "Stunt 1",
+        "linked_skill": "None",
+        "description": "",
+        "refresh_cost": 1,
+        "overcome": false,
+        "caa": false,
+        "attack": false,
+        "defend": false,
+        "bonus": 0,
+        "boxes": null,
+        "box_values": []
+      }
+    },
+    "aspects": {
+      "Big One Aye": {
+        "name": "Big One Aye",
+        "description": "New Aspect",
+        "value": "New Aspect"
+      }
+    },
+    "skills": {},
+    "tracks": {},
+    "actions": {
+      "overcome": "",
+      "create": "",
+      "attack": "",
+      "defend": ""
+    },
+    "countSkills": false,
+    "combineSkills": false,
+    "active": true,
+    "contents": {}
+  },
+  "effects": [],
+  "sort": 0,
+  "flags": {
+    "exportSource": {
+      "world": "exaltedf",
+      "system": "fate-core-official",
+      "coreVersion": "0.8.9",
+      "systemVersion": "4.2.21"
+    }
+  }
+},
+{
+  "name": "Test2",
+  "type": "Extra",
+  "img": "icons/svg/item-bag.svg",
+  "data": {
+    "description": {
+      "value": ""
+    },
+    "permissions": "",
+    "costs": "",
+    "refresh": "",
+    "stunts": {
+      "Stunt 2": {
+        "name": "Stunt 2",
+        "linked_skill": "None",
+        "description": "",
+        "refresh_cost": 1,
+        "overcome": false,
+        "caa": false,
+        "attack": false,
+        "defend": false,
+        "bonus": 0,
+        "boxes": null,
+        "box_values": []
+      }
+    },
+    "aspects": {
+      "Big One Dou": {
+        "name": "Big One Dou",
+        "description": "New Aspect",
+        "value": "New Aspect"
+      }
+    },
+    "skills": {},
+    "tracks": {},
+    "actions": {
+      "overcome": "",
+      "create": "",
+      "attack": "",
+      "defend": ""
+    },
+    "countSkills": false,
+    "combineSkills": false,
+    "active": true,
+    "contents": {}
+  },
+  "effects": [],
+  "sort": 0,
+  "flags": {
+    "exportSource": {
+      "world": "exaltedf",
+      "system": "fate-core-official",
+      "coreVersion": "0.8.9",
+      "systemVersion": "4.2.21"
+    }
+  }
+}
+])

@@ -1,0 +1,814 @@
+{
+    "Sword, Great": {
+        "name": "Sword, Great",
+        "type": "Extra",
+        "img": "icons/svg/item-bag.svg",
+        "data": {
+            "description": "A massive blade good for hacking blows.",
+            "permissions": "",
+            "costs": "",
+            "refresh": "",
+            "stunts": {
+                "name": "(Weapon: 2) Great Sword",
+                "linked_skill": "None",
+                "description": "Reach, Two-Handed",
+                "refresh_cost": "0",
+                "overcome": "FALSE",
+                "caa": "FALSE",
+                "attack": "TRUE",
+                "defend": "FALSE",
+                "bonus": "0",
+                "boxes": "2",
+                "box_values": "[false, false]"
+            },
+            "aspects": {
+                "name": "",
+                "description": "",
+                "value": ""
+            }
+        }
+    },
+    "Sword, Short": {
+        "name": "Sword, Short",
+        "type": "Extra",
+        "img": "icons/svg/item-bag.svg",
+        "data": {
+            "description": "A versatile weapon and chopping tool.",
+            "permissions": "",
+            "costs": "",
+            "refresh": "",
+            "stunts": {
+                "name": "(Weapon: 0) Short Sword",
+                "linked_skill": "None",
+                "description": "Chopping Tool",
+                "refresh_cost": "0",
+                "overcome": "TRUE",
+                "caa": "FALSE",
+                "attack": "TRUE",
+                "defend": "FALSE",
+                "bonus": "0",
+                "boxes": "2",
+                "box_values": "[false, false]"
+            },
+            "aspects": {
+                "name": "",
+                "description": "",
+                "value": ""
+            }
+        }
+    },
+    "Sword, Slashing": {
+        "name": "Sword, Slashing",
+        "type": "Extra",
+        "img": "icons/svg/item-bag.svg",
+        "data": {
+            "description": "Curved, single-edged blade.",
+            "permissions": "",
+            "costs": "",
+            "refresh": "",
+            "stunts": {
+                "name": "(Weapon: 1) Slashing Sword",
+                "linked_skill": "None",
+                "description": "Slashing Curve",
+                "refresh_cost": "0",
+                "overcome": "FALSE",
+                "caa": "FALSE",
+                "attack": "TRUE",
+                "defend": "FALSE",
+                "bonus": "0",
+                "boxes": "2",
+                "box_values": "[false, false]"
+            },
+            "aspects": {
+                "name": "",
+                "description": "",
+                "value": ""
+            }
+        }
+    },
+    "Sword, Straight": {
+        "name": "Sword, Straight",
+        "type": "Extra",
+        "img": "icons/svg/item-bag.svg",
+        "data": {
+            "description": "Well, balanced soldier's blade.",
+            "permissions": "",
+            "costs": "",
+            "refresh": "",
+            "stunts": {
+                "name": "(Weapon: 1) Straight Sword",
+                "linked_skill": "None",
+                "description": "Parry",
+                "refresh_cost": "0",
+                "overcome": "FALSE",
+                "caa": "FALSE",
+                "attack": "TRUE",
+                "defend": "TRUE",
+                "bonus": "0",
+                "boxes": "2",
+                "box_values": "[false, false]"
+            },
+            "aspects": {
+                "name": "",
+                "description": "",
+                "value": ""
+            }
+        }
+    },
+    "Hatchet": {
+        "name": "Hatchet",
+        "type": "Extra",
+        "img": "icons/svg/item-bag.svg",
+        "data": {
+            "description": "Balanced, broad headed axe.",
+            "permissions": "",
+            "costs": "",
+            "refresh": "",
+            "stunts": {
+                "name": "(Weapon: 1) Hatchet",
+                "linked_skill": "None",
+                "description": "Chopping Tool, Throwable",
+                "refresh_cost": "0",
+                "overcome": "TRUE",
+                "caa": "FALSE",
+                "attack": "TRUE",
+                "defend": "FALSE",
+                "bonus": "0",
+                "boxes": "2",
+                "box_values": "[false, false]"
+            },
+            "aspects": {
+                "name": "",
+                "description": "",
+                "value": ""
+            }
+        }
+    },
+    "Club": {
+        "name": "Club",
+        "type": "Extra",
+        "img": "icons/svg/item-bag.svg",
+        "data": {
+            "description": "Weighted length of wood or bone.",
+            "permissions": "",
+            "costs": "",
+            "refresh": "",
+            "stunts": {
+                "name": "(Weapon: 0) Club",
+                "linked_skill": "None",
+                "description": "Skull Crushing, Throwable",
+                "refresh_cost": "0",
+                "overcome": "FALSE",
+                "caa": "FALSE",
+                "attack": "TRUE",
+                "defend": "FALSE",
+                "bonus": "0",
+                "boxes": "1",
+                "box_values": "[false]"
+            },
+            "aspects": {
+                "name": "",
+                "description": "",
+                "value": ""
+            }
+        }
+    },
+    "Axe, Great": {
+        "name": "Axe, Great",
+        "type": "Extra",
+        "img": "icons/svg/item-bag.svg",
+        "data": {
+            "description": "Long hafted, forceful striker.",
+            "permissions": "",
+            "costs": "",
+            "refresh": "",
+            "stunts": {
+                "name": "(Weapon: 2) Great Axe",
+                "linked_skill": "None",
+                "description": "Sundering Blows, Two-Handed",
+                "refresh_cost": "0",
+                "overcome": "FALSE",
+                "caa": "FALSE",
+                "attack": "TRUE",
+                "defend": "FALSE",
+                "bonus": "0",
+                "boxes": "2",
+                "box_values": "[false, false]"
+            },
+            "aspects": {
+                "name": "",
+                "description": "",
+                "value": ""
+            }
+        }
+    },
+    "Hammer": {
+        "name": "Hammer",
+        "type": "Extra",
+        "img": "icons/svg/item-bag.svg",
+        "data": {
+            "description": "Slow but powerful blunt weapons.",
+            "permissions": "",
+            "costs": "",
+            "refresh": "",
+            "stunts": {
+                "name": "(Weapon: 1) Hammer",
+                "linked_skill": "None",
+                "description": "Armor Piercing",
+                "refresh_cost": "0",
+                "overcome": "FALSE",
+                "caa": "FALSE",
+                "attack": "TRUE",
+                "defend": "FALSE",
+                "bonus": "0",
+                "boxes": "2",
+                "box_values": "[false, false]"
+            },
+            "aspects": {
+                "name": "",
+                "description": "",
+                "value": ""
+            }
+        }
+    },
+    "Mace": {
+        "name": "Mace",
+        "type": "Extra",
+        "img": "icons/svg/item-bag.svg",
+        "data": {
+            "description": "Crushing, Stunning Blows",
+            "permissions": "",
+            "costs": "",
+            "refresh": "",
+            "stunts": {
+                "name": "(Weapon: 1) Mace",
+                "linked_skill": "None",
+                "description": "Stunning Strike",
+                "refresh_cost": "0",
+                "overcome": "FALSE",
+                "caa": "FALSE",
+                "attack": "TRUE",
+                "defend": "FALSE",
+                "bonus": "0",
+                "boxes": "2",
+                "box_values": "[false, false]"
+            },
+            "aspects": {
+                "name": "",
+                "description": "",
+                "value": ""
+            }
+        }
+    },
+    "Axe, Pole": {
+        "name": "Axe, Pole",
+        "type": "Extra",
+        "img": "icons/svg/item-bag.svg",
+        "data": {
+            "description": "Devestating, long hafted weapon.",
+            "permissions": "",
+            "costs": "",
+            "refresh": "",
+            "stunts": {
+                "name": "(Weapon: 2) Poleaxe",
+                "linked_skill": "None",
+                "description": "Sundering Blows, Reach, Two-Handed",
+                "refresh_cost": "0",
+                "overcome": "FALSE",
+                "caa": "FALSE",
+                "attack": "TRUE",
+                "defend": "FALSE",
+                "bonus": "0",
+                "boxes": "2",
+                "box_values": "[false, false]"
+            },
+            "aspects": {
+                "name": "",
+                "description": "",
+                "value": ""
+            }
+        }
+    },
+    "Scythe": {
+        "name": "Scythe",
+        "type": "Extra",
+        "img": "icons/svg/item-bag.svg",
+        "data": {
+            "description": "Cuts wheat and soldiers effectively.",
+            "permissions": "",
+            "costs": "",
+            "refresh": "",
+            "stunts": {
+                "name": "(Weapon: 2) Scythe",
+                "linked_skill": "None",
+                "description": "Slashing Curve, Reach, Two-Handed",
+                "refresh_cost": "0",
+                "overcome": "FALSE",
+                "caa": "FALSE",
+                "attack": "TRUE",
+                "defend": "FALSE",
+                "bonus": "0",
+                "boxes": "1",
+                "box_values": "[false]"
+            },
+            "aspects": {
+                "name": "",
+                "description": "",
+                "value": ""
+            }
+        }
+    },
+    "Sledge": {
+        "name": "Sledge",
+        "type": "Extra",
+        "img": "icons/svg/item-bag.svg",
+        "data": {
+            "description": "Huge headed, heavy weapon.",
+            "permissions": "",
+            "costs": "",
+            "refresh": "",
+            "stunts": {
+                "name": "(Weapon: 2) Sledge Hammer",
+                "linked_skill": "None",
+                "description": "Armor Piercing, Reach, Two-Handed",
+                "refresh_cost": "0",
+                "overcome": "FALSE",
+                "caa": "FALSE",
+                "attack": "TRUE",
+                "defend": "FALSE",
+                "bonus": "0",
+                "boxes": "3",
+                "box_values": "[false, false, false]"
+            },
+            "aspects": {
+                "name": "",
+                "description": "",
+                "value": ""
+            }
+        }
+    },
+    "Staff": {
+        "name": "Staff",
+        "type": "Extra",
+        "img": "icons/svg/item-bag.svg",
+        "data": {
+            "description": "A length of sturdy wood, reinforced with leather or iron.",
+            "permissions": "",
+            "costs": "",
+            "refresh": "",
+            "stunts": {
+                "name": "(Weapon: 1) Staff",
+                "linked_skill": "None",
+                "description": "Parry, Reach, Stunning Strike",
+                "refresh_cost": "0",
+                "overcome": "FALSE",
+                "caa": "FALSE",
+                "attack": "TRUE",
+                "defend": "TRUE",
+                "bonus": "0",
+                "boxes": "2",
+                "box_values": "[false, false]"
+            },
+            "aspects": {
+                "name": "",
+                "description": "",
+                "value": ""
+            }
+        }
+    },
+    "Tetsubo": {
+        "name": "Tetsubo",
+        "type": "Extra",
+        "img": "icons/svg/item-bag.svg",
+        "data": {
+            "description": "Massive iron club.",
+            "permissions": "",
+            "costs": "",
+            "refresh": "",
+            "stunts": {
+                "name": "(Weapon: 2) Tetsubo",
+                "linked_skill": "None",
+                "description": "Skull Crushing, Reach, Two-Handed",
+                "refresh_cost": "0",
+                "overcome": "FALSE",
+                "caa": "FALSE",
+                "attack": "TRUE",
+                "defend": "FALSE",
+                "bonus": "0",
+                "boxes": "3",
+                "box_values": "[false, false, false]"
+            },
+            "aspects": {
+                "name": "",
+                "description": "",
+                "value": ""
+            }
+        }
+    },
+    "Whip": {
+        "name": "Whip",
+        "type": "Extra",
+        "img": "icons/svg/item-bag.svg",
+        "data": {
+            "description": "Leather woven cord.",
+            "permissions": "",
+            "costs": "",
+            "refresh": "",
+            "stunts": {
+                "name": "(Weapon: 0) Whip",
+                "linked_skill": "None",
+                "description": "Stunning Blow, Reach",
+                "refresh_cost": "0",
+                "overcome": "FALSE",
+                "caa": "FALSE",
+                "attack": "TRUE",
+                "defend": "FALSE",
+                "bonus": "0",
+                "boxes": "1",
+                "box_values": "[false]"
+            },
+            "aspects": {
+                "name": "",
+                "description": "",
+                "value": ""
+            }
+        }
+    },
+    "Javelin": {
+        "name": "Javelin",
+        "type": "Extra",
+        "img": "icons/svg/item-bag.svg",
+        "data": {
+            "description": "Light spear meant for throwing.",
+            "permissions": "",
+            "costs": "",
+            "refresh": "",
+            "stunts": {
+                "name": "(Weapon: 0) Javelin",
+                "linked_skill": "None",
+                "description": "Throwable",
+                "refresh_cost": "0",
+                "overcome": "FALSE",
+                "caa": "FALSE",
+                "attack": "TRUE",
+                "defend": "FALSE",
+                "bonus": "0",
+                "boxes": "1",
+                "box_values": "[false]"
+            },
+            "aspects": {
+                "name": "",
+                "description": "",
+                "value": ""
+            }
+        }
+    },
+    "Lance": {
+        "name": "Lance",
+        "type": "Extra",
+        "img": "icons/svg/item-bag.svg",
+        "data": {
+            "description": "A strong shafted cavalry weapon.",
+            "permissions": "",
+            "costs": "",
+            "refresh": "",
+            "stunts": {
+                "name": "(Weapon: 1) Lance",
+                "linked_skill": "None",
+                "description": "Deadly Chage, Reach",
+                "refresh_cost": "0",
+                "overcome": "FALSE",
+                "caa": "FALSE",
+                "attack": "TRUE",
+                "defend": "FALSE",
+                "bonus": "0",
+                "boxes": "2",
+                "box_values": "[false, false]"
+            },
+            "aspects": {
+                "name": "",
+                "description": "",
+                "value": ""
+            }
+        }
+    },
+    "Spear, Short": {
+        "name": "Spear, Short",
+        "type": "Extra",
+        "img": "icons/svg/item-bag.svg",
+        "data": {
+            "description": "Short-hafted stabbing weapon.",
+            "permissions": "",
+            "costs": "",
+            "refresh": "",
+            "stunts": {
+                "name": "(Weapon: 1) Short Spear",
+                "linked_skill": "None",
+                "description": "Reach",
+                "refresh_cost": "0",
+                "overcome": "FALSE",
+                "caa": "FALSE",
+                "attack": "TRUE",
+                "defend": "FALSE",
+                "bonus": "0",
+                "boxes": "2",
+                "box_values": "[false, false]"
+            },
+            "aspects": {
+                "name": "",
+                "description": "",
+                "value": ""
+            }
+        }
+    },
+    "Spear": {
+        "name": "Spear",
+        "type": "Extra",
+        "img": "icons/svg/item-bag.svg",
+        "data": {
+            "description": "Versatile infantry weapon.",
+            "permissions": "",
+            "costs": "",
+            "refresh": "",
+            "stunts": {
+                "name": "(Weapon: 2) Spear",
+                "linked_skill": "None",
+                "description": "Deadly Charge, Reach, Two-Handed",
+                "refresh_cost": "0",
+                "overcome": "FALSE",
+                "caa": "FALSE",
+                "attack": "TRUE",
+                "defend": "FALSE",
+                "bonus": "0",
+                "boxes": "2",
+                "box_values": "[false, false]"
+            },
+            "aspects": {
+                "name": "",
+                "description": "",
+                "value": ""
+            }
+        }
+    },
+    "Cestus": {
+        "name": "Cestus",
+        "type": "Extra",
+        "img": "icons/svg/item-bag.svg",
+        "data": {
+            "description": "Studded leather wrapped around fists.",
+            "permissions": "",
+            "costs": "",
+            "refresh": "",
+            "stunts": {
+                "name": "(Weapon: 0) Cestus",
+                "linked_skill": "None",
+                "description": "Stunning Blows",
+                "refresh_cost": "0",
+                "overcome": "FALSE",
+                "caa": "FALSE",
+                "attack": "TRUE",
+                "defend": "FALSE",
+                "bonus": "0",
+                "boxes": "1",
+                "box_values": "[false]"
+            },
+            "aspects": {
+                "name": "",
+                "description": "",
+                "value": ""
+            }
+        }
+    },
+    "Chain, Fighting": {
+        "name": "Chain, Fighting",
+        "type": "Extra",
+        "img": "icons/svg/item-bag.svg",
+        "data": {
+            "description": "Slender, sturdy chain with weights.",
+            "permissions": "",
+            "costs": "",
+            "refresh": "",
+            "stunts": {
+                "name": "(Weapon: 1) Fighting Chain",
+                "linked_skill": "None",
+                "description": "Grappling, Reach",
+                "refresh_cost": "0",
+                "overcome": "FALSE",
+                "caa": "TRUE",
+                "attack": "TRUE",
+                "defend": "FALSE",
+                "bonus": "0",
+                "boxes": "2",
+                "box_values": "[false, false]"
+            },
+            "aspects": {
+                "name": "",
+                "description": "",
+                "value": ""
+            }
+        }
+    },
+    "Gauntlet, Fighting": {
+        "name": "Gauntlet, Fighting",
+        "type": "Extra",
+        "img": "icons/svg/item-bag.svg",
+        "data": {
+            "description": "Metal or leather gloves intended for protecting the hands.",
+            "permissions": "",
+            "costs": "",
+            "refresh": "",
+            "stunts": {
+                "name": "(Weapon: 1) Fighting Gauntlet",
+                "linked_skill": "None",
+                "description": "Parry, Grappling",
+                "refresh_cost": "0",
+                "overcome": "FALSE",
+                "caa": "TRUE",
+                "attack": "TRUE",
+                "defend": "TRUE",
+                "bonus": "0",
+                "boxes": "2",
+                "box_values": "[false, false]"
+            },
+            "aspects": {
+                "name": "",
+                "description": "",
+                "value": ""
+            }
+        }
+    },
+    "Sword, Hook": {
+        "name": "Sword, Hook",
+        "type": "Extra",
+        "img": "icons/svg/item-bag.svg",
+        "data": {
+            "description": "Single-edged blade with a distrinct hook.",
+            "permissions": "",
+            "costs": "",
+            "refresh": "",
+            "stunts": {
+                "name": "(Weapon: 1) Hook Sword",
+                "linked_skill": "None",
+                "description": "Disarming, Parry",
+                "refresh_cost": "0",
+                "overcome": "FALSE",
+                "caa": "TRUE",
+                "attack": "TRUE",
+                "defend": "FALSE",
+                "bonus": "0",
+                "boxes": "2",
+                "box_values": "[false, false]"
+            },
+            "aspects": {
+                "name": "",
+                "description": "",
+                "value": ""
+            }
+        }
+    },
+    "Boot, Iron": {
+        "name": "Boot, Iron",
+        "type": "Extra",
+        "img": "icons/svg/item-bag.svg",
+        "data": {
+            "description": "Heavy shod metal boots",
+            "permissions": "",
+            "costs": "",
+            "refresh": "",
+            "stunts": {
+                "name": "(Weapon: 1) Iron Boot",
+                "linked_skill": "None",
+                "description": "Hands Free",
+                "refresh_cost": "0",
+                "overcome": "FALSE",
+                "caa": "FALSE",
+                "attack": "TRUE",
+                "defend": "FALSE",
+                "bonus": "0",
+                "boxes": "2",
+                "box_values": "[false, false]"
+            },
+            "aspects": {
+                "name": "",
+                "description": "",
+                "value": ""
+            }
+        }
+    },
+    "Khatar": {
+        "name": "Khatar",
+        "type": "Extra",
+        "img": "icons/svg/item-bag.svg",
+        "data": {
+            "description": "Punching dagger.",
+            "permissions": "",
+            "costs": "",
+            "refresh": "",
+            "stunts": {
+                "name": "(Weapon: 1) Khatar",
+                "linked_skill": "None",
+                "description": "Armor Piercing",
+                "refresh_cost": "0",
+                "overcome": "FALSE",
+                "caa": "FALSE",
+                "attack": "TRUE",
+                "defend": "FALSE",
+                "bonus": "0",
+                "boxes": "2",
+                "box_values": "[false, false]"
+            },
+            "aspects": {
+                "name": "",
+                "description": "",
+                "value": ""
+            }
+        }
+    },
+    "Harness, Razor": {
+        "name": "Harness, Razor",
+        "type": "Extra",
+        "img": "icons/svg/item-bag.svg",
+        "data": {
+            "description": "Leather body strapes covered in blades.",
+            "permissions": "",
+            "costs": "",
+            "refresh": "",
+            "stunts": {
+                "name": "(Weapon: 1) Razor Harness",
+                "linked_skill": "None",
+                "description": "Thorns",
+                "refresh_cost": "0",
+                "overcome": "FALSE",
+                "caa": "FALSE",
+                "attack": "TRUE",
+                "defend": "TRUE",
+                "bonus": "0",
+                "boxes": "1",
+                "box_values": "[false]"
+            },
+            "aspects": {
+                "name": "",
+                "description": "",
+                "value": ""
+            }
+        }
+    },
+    "Sai": {
+        "name": "Sai",
+        "type": "Extra",
+        "img": "icons/svg/item-bag.svg",
+        "data": {
+            "description": "Pronged fork for weapon breaking",
+            "permissions": "",
+            "costs": "",
+            "refresh": "",
+            "stunts": {
+                "name": "(Weapon: 0) Sai",
+                "linked_skill": "None",
+                "description": "Disarm, Breaker, Parry",
+                "refresh_cost": "0",
+                "overcome": "FALSE",
+                "caa": "FALSE",
+                "attack": "TRUE",
+                "defend": "TRUE",
+                "bonus": "0",
+                "boxes": "2",
+                "box_values": "[false, false]"
+            },
+            "aspects": {
+                "name": "",
+                "description": "",
+                "value": ""
+            }
+        }
+    },
+    "Staff, Seven-Section": {
+        "name": "Staff, Seven-Section",
+        "type": "Extra",
+        "img": "icons/svg/item-bag.svg",
+        "data": {
+            "description": "Chain of rods intended to flail.",
+            "permissions": "",
+            "costs": "",
+            "refresh": "",
+            "stunts": {
+                "name": "",
+                "linked_skill": "None",
+                "description": "",
+                "refresh_cost": "0",
+                "overcome": "FALSE",
+                "caa": "FALSE",
+                "attack": "TRUE",
+                "defend": "TRUE",
+                "bonus": "0",
+                "boxes": "2",
+                "box_values": "[false, false]"
+            },
+            "aspects": {
+                "name": "",
+                "description": "",
+                "value": ""
+            }
+        }
+    }
+}
